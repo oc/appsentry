@@ -1,4 +1,7 @@
 #!/bin/sh
+
+cd lib
+test -f jruby-complete.jar || exit 1
  
 rm -rf jruby-core.jar
 rm -rf ruby-stdlib.jar
